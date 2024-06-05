@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="gallery">
+      <div class="gallery-item" data-id="1">
+        <div class="image-container">
+          <img src="media/fennec-fox.jpg" alt="Fennec Fox" />
+        </div>
+        <div class="gallery-text">
+          <h2>Fennec Fox</h2>
+          <p>India</p>
+          <a href="#" class="know-more">Know more &#10132;</a>
+        </div>
+      </div>
+      <div class="gallery-item" data-id="2">
+        <div class="image-container">
+          <img src="media/humpback-whale.jpg" alt="Humpback Whale" />
+        </div>
+        <div class="gallery-text">
+          <h2>Humpback Whale</h2>
+          <p>South Africa</p>
+          <a href="#" class="know-more">Know more &#10132;</a>
+        </div>
+      </div>
+      <div class="gallery-item" data-id="3">
+        <div class="image-container">
+          <img src="media/common-brown-baboon.jpg" alt="Common Brown Baboon" />
+        </div>
+        <div class="gallery-text">
+          <h2>Common Brown Baboon</h2>
+          <p>South Africa</p>
+          <a href="#" class="know-more">Know more &#10132;</a>
+        </div>
+      </div>
+      <div class="gallery-item" data-id="4">
+        <div class="image-container">
+          <img src="media/spotted-deer.jpg" alt="Spotted Deer" />
+        </div>
+        <div class="gallery-text">
+          <h2>Spotted Deer</h2>
+          <p>Amazon</p>
+          <a href="#" class="know-more">Know more &#10132;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="lightbox" id="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" src="" alt="Full Size" />
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+
