@@ -4,18 +4,23 @@ COA TASKFORCE PRO TAKE HOME CHALLENGE
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Challenges](#challenges)
-  - [Array Manipulation](#array-manipulation)
-  - [String Transformation](#string-transformation)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
-- [Code Quality and Tests](#code-quality-and-tests)
-- [Contributing](#contributing)
-- [Contact](#contact)
-- [License](#license)
+- [Interactive Photo Gallery and Coding Challenges](#interactive-photo-gallery-and-coding-challenges)
+  - [Table of Contents](#table-of-contents)
+  - [Project Overview](#project-overview)
+  - [Features](#features)
+  - [Tech Stack](#tech-stack)
+  - [Challenges](#challenges)
+    - [Array Manipulation](#array-manipulation)
+    - [String Transformation](#string-transformation)
+  - [Setup Instructions](#setup-instructions)
+    - [1. Clone the Repository](#1-clone-the-repository)
+    - [2. Run the `index.html` file in your browser](#2-run-the-indexhtml-file-in-your-browser)
+  - [Checking the Challenges](#checking-the-challenges)
+  - [Usage](#usage)
+  - [Code Quality and Tests](#code-quality-and-tests)
+  - [Contributing](#contributing)
+  - [Contact](#contact)
+  - [License](#license)
 
 ## Project Overview
 
@@ -82,6 +87,19 @@ open index.html         # on Mac
 xdg-open index.html     # on Linux
 ```
 
+## Checking the Challenges
+
+In Terminal, Navigate to `Challenges` folder then run the following commands to check how the code work.
+
+```bash
+cd Challenges
+node arrayMap.js # If you have node installed
+node stringTransform.js # Also requires to have node installed
+```
+
+You can also run them in the Browser console.
+Feel free to change any data passed as example to check all the functionalities.
+
 ## Usage
 
 To use the Interactive Photo Gallery:
@@ -107,9 +125,8 @@ To use the Interactive Photo Gallery:
 For any questions or suggestions regarding the project, please reach out via:
 
 - Email: [princenzmw@gmail.com](mailto:princenzmw@gmail.com)
-- GitHub: [@princenzmw](https://github.com/princenzmw)
+- GitHub: [@princenzmw](https://github.com/princenzmw) ❤️
 
 ## License
 
 This project is licensed under the MIT License.
-
